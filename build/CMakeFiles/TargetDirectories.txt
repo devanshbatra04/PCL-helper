@@ -1,0 +1,4 @@
+/home/groot/pcl_stuff/build/CMakeFiles/rebuild_cache.dir
+/home/groot/pcl_stuff/build/CMakeFiles/edit_cache.dir
+/home/groot/pcl_stuff/build/CMakeFiles/test_pcl.dir
+/home/groot/pcl_stuff/build/CMakeFiles/fitting.dir

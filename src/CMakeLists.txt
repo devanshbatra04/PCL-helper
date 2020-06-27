@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.1 FATAL_ERROR)
+set (CMAKE_CXX_STANDARD 11)
+
+project(pcl-test_pcl)
+
+find_package(PCL 1.8 REQUIRED)
+
+include_directories(${PCL_INCLUDE_DIRS})
+link_directories(${PCL_LIBRARY_DIRS})
+add_definitions(${PCL_DEFINITIONS})
+
+add_executable (test_pcl test_pcl.cpp)
+add_executable (fitting fitting.cpp)
+target_link_libraries (test_pcl ${PCL_LIBRARIES})
+target_link_libraries (fitting ${PCL_LIBRARIES})
